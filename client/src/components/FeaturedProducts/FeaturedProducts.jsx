@@ -1,35 +1,31 @@
 import React from 'react'
 import Card from '../Card/Card'
 import "./featuredProducts.scss"
+import axios from 'axios'
 
 const FeaturedProducts = ({type}) => {
 
-  const data=[
-     {
-      id:1,
-      oldPrice: 10,
-      Price: 6,
-      title: "some cloth"
-    },
+  
 
-    {
-      id:2,
-      oldPrice: 10,
-      Price: 6,
-      title: "some cloth"
-    },
-    {
-      id:3,
-      oldPrice: 10,
-      Price: 6,
-      title: "some cloth"
-    },
-    {
-      id:4,
-      oldPrice: 10,
-      Price: 6,
-      title: "some cloth"
-    }]
+    const[data, setData]= React.useState([])
+
+    React.useEffect(()=>{
+      const fetchData= async ()=>{
+        try{
+          const response = await axios.get(process.env.REACT_APP_API_URL + "/products?populate=*",{
+            headers: {
+              Authorization: "bearer "+ process.env.REACT_APP_API_TOKEN,
+            }
+          })
+          setData(response.data.data)
+        }catch(err){
+          console.log(err)
+        }
+      }
+      fetchData()
+    }, []);
+
+    console.log(data)
     
   return (
     <div className='featuredProducts'>
