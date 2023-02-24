@@ -9,10 +9,10 @@ const Card = ({item}) => {
         <div className="image">
             <img src={item.img} alt="" className='mainImg'/>
         </div>
-        <h2>{item.title}</h2>
+        <h2>{item?.attributes.title}</h2>
         <div className="prices">
-            <h3>${item.oldPrice}</h3>
-            <h3>${item.Price}</h3>
+            <h3>${item.oldPrice || item?.attributes.price + 12}</h3>
+            <h3>${item?.attributes.price}</h3>
         </div>
     </div>
     </Link>
