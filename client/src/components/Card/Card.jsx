@@ -7,7 +7,7 @@ const Card = ({item}) => {
     <Link className='link' to={`/product/${item.id}`}>
     <div className='card'>
         <div className="image">
-            <img src={item.img} alt="" className='mainImg'/>
+            <img src={process.env.REACT_APP_UPLOAD_URL+item.attributes?.img?.data?.attributes?.url} alt="" className='mainImg'/>
         </div>
         <h2>{item?.attributes.title}</h2>
         <div className="prices">
