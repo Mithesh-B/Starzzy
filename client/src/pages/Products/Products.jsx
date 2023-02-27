@@ -8,7 +8,7 @@ const Products = () => {
 
   const catId = parseInt(useParams().id)
   const [maxPrice, setMaxPrice] = React.useState(1000);
-  const [sort, setSort]= React.useState(null)
+  const [sort, setSort]= React.useState("asc")
   const [selectedSubCats, setSelectedSubCats]= React.useState([]) 
 
   const {data, loading,error} = useFetch(`/sub-categories?[filters][categories][id][$eq]=${catId}`)
@@ -18,6 +18,7 @@ const Products = () => {
 
     setSelectedSubCats(isChecked?[...selectedSubCats, value]: selectedSubCats.filter(item=> item !== value))
   }
+
 
   return (
     <div className='products'>
@@ -56,7 +57,7 @@ const Products = () => {
           src="https://images.pexels.com/photos/1074535/pexels-photo-1074535.jpeg?auto=compress&cs=tinysrgb&w=1600"
           alt=""
         />
-        <List catId={catId} maxPrice={maxPrice} sort={sort}/>
+        <List catId={catId} maxPrice={maxPrice} sort={sort} subCats={selectedSubCats}/>
       </div>
     </div>
   )
