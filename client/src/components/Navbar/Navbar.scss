@@ -1,5 +1,5 @@
 .navbar{
-     height: 80px;
+     height: 70px;
 
      .wrapper{
         padding: 10px 30px;
@@ -18,7 +18,10 @@
             gap: 25px;
         }
         .center{
-            font-size: 30px;
+            font-size: 40px;
+            font-weight: 700;
+        
+
         }
 
         .right{display: flex;
@@ -28,7 +31,7 @@
             .icons{
                 display: flex;
                 gap: 15px;
-                color: rgb(94, 94, 94);
+                color: rgb(37, 37, 37);
                 cursor:pointer;
                 
             } .cartIcon{
@@ -38,7 +41,7 @@
                     width: 20px;
                     height: 20px;
                     border-radius: 50%;
-                    background-color: blue;
+                    background-color: rgb(10, 10, 10);
                     color: white;
                     position: absolute;
                     right: -10px;
