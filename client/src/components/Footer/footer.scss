@@ -10,13 +10,13 @@
             display: flex;
             flex-direction: column;
             gap: 10px;
-            text-align: justify;
+            text-align:unset;
             font-size: 14px;
 
             h1{
                 font-size: 18px;
-                font-weight: 500;
-                color: #555;
+                font-weight: 700;
+                color: #181717;
             }
             span{
                 color: grey;
