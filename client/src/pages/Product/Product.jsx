@@ -39,7 +39,7 @@ const Product = () => {
         <p>{data?.attributes?.desc}</p>
         <div className='quantity'>
           <button onClick={()=>setQuantity(prev=>prev===1? 1: prev-1)}>-</button>
-          {quantity}
+          <h3 className='quantity'>{quantity}</h3>
           <button onClick={()=>setQuantity(prev=>prev+1)}>+</button>
         </div>
         <button className='add' onClick={()=>dispatch(addToCart({id:data.id,

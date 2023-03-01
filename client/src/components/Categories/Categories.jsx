@@ -10,6 +10,8 @@ const Categories = () => {
   
   
   return (
+    <div>
+      <h2 className='offer'>Limited-Time Offers: Don't Miss Out on These Exclusive Deals!</h2>
     <div className="categories">
     <div className="col">
       <div className="row">
@@ -56,6 +58,7 @@ const Categories = () => {
         />
       </div>
     </div>
+  </div>
   </div>
   )
 }

@@ -5,6 +5,10 @@ const Footer = () => {
   return (
     <div className='footer'>
       <div className="top">
+        <div className="bottom">
+          <span className='logo'>STA&ZZY</span>
+          <span className='copyright'>copyright 2023. All Rights Reserved</span>
+        </div>
         <div className="item">
           <h1>Categories</h1>
           <span>Women</span>
@@ -22,22 +26,19 @@ const Footer = () => {
           <span>Cookies</span>
         </div>
         <div className="item">
-          <h1>About Us</h1>
-          <span>Our goal at STARZZY is to provide our customers with an exceptional shopping experience. We offer high-quality products and excellent customer service, with a focus on the latest fashion trends and timeless classics. Thank you for choosing us for all your fashion needs!</span>
+        <h1>About Us</h1>
+          <span>About STARZZY</span>
+          <span>Contact us</span>
+          <span>Features</span>
+          <span>Careers</span>
         </div>
         <div className="item">
-        <h1>Contact Us</h1>
-          <span>We're always here to help! If you have any questions or concerns about our products or services, please don't hesitate to get in touch. You can reach us via email or phone, and our customer service team will be happy to assist you. Thank you for choosing STARZZY, we look forward to hearing from you!</span>
+        <h1>Resources</h1>
+          <span>Help center</span>
+          <span>blog</span>
+          <span>Server Status</span>
         </div>
-      </div>
-      <div className="bottom">
-        <div className="left">
-          <span className='logo'>STARZZY</span>
-          <span className='copyright'>copyright 2023. All Rights Reserved</span>
-        </div>
-        <div className="right">
-          <img src="/img/stripe.png" alt="badge" />
-        </div>
+        
       </div>
     </div>
   )

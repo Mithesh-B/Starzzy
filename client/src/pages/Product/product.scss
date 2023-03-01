@@ -43,7 +43,7 @@
       }
   
       p{
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 300;
         text-align: justify;
       }
@@ -52,10 +52,22 @@
         display: flex;
         align-items: center;
         gap: 10px;
+    background-color: #d6d2d2;
+    border-radius: 50px;
+        width: fit-content;
+ 
+       
+        
+      
+     
   
         button{
           width: 50px;
           height: 50px;
+          background-color: #287afe00;
+          border-radius: 100%;
+          font-size:25px;
+         
           display: flex;
           align-items: center;
           justify-content: center;
@@ -65,9 +77,9 @@
       }
   
       .add{
-        width: 250px;
+        width: 200px;
         padding: 10px;
-        background-color: #2879fe;
+        background-color: #070707;
         color: white;
         display: flex;
         align-items: center;
@@ -76,6 +88,8 @@
         cursor: pointer;
         border: none;
         font-weight: 500;
+        border-radius: 10px;
+        font-family: 'Space Grotesk', sans-serif;
       }
   
       .links{
@@ -86,7 +100,7 @@
           display: flex;
           align-items: center;
           gap: 10px;
-          color: #2879fe;
+          color: #000000;
           font-size: 14px;
         }
       }

@@ -47,8 +47,8 @@ console.log(err)
         </div>
       ))}
      <div className="total">
-      <span>Sub Total</span>
-      <span>{totalPrice()}</span>
+      <span >Sub Total</span>
+      <span>${totalPrice()}</span>
      </div>
      <button onClick={handlePayment}>Checkout</button>
      <span className="reset" onClick={()=>dispatch(resetCart())}>Clear cart</span>
