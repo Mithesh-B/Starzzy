@@ -1,6 +1,6 @@
 import React from 'react'
 import "./cart.scss"
-import DeleteOutlinedIcon from "@mui/icons-material/DeleteOutlined";
+import HighlightOffTwoToneIcon from '@mui/icons-material/HighlightOffTwoTone';
 import {useSelector} from "react-redux"
 import { removeItem, resetCart } from '../../redux/cartReducer';
 import { useDispatch } from 'react-redux';
@@ -43,7 +43,7 @@ console.log(err)
     
             <div className="price">{item.quantity} x ${item.price}</div>
           </div>
-          <DeleteOutlinedIcon className='delete' onClick={()=>dispatch(removeItem(item.id))}/>
+          <HighlightOffTwoToneIcon className='delete' onClick={()=>dispatch(removeItem(item.id))}/>
         </div>
       ))}
      <div className="total">
