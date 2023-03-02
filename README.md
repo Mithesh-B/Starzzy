@@ -29,13 +29,15 @@ or download the .zip extension directly.
 ```npm install```
 3. Once done installing all the dependencies, run comand: ```npm start``` in client folder. This will start the React app on http://localhost:3000.
 4. To connect backend, create a .env file in client/src and paste the following 
-```REACT_APP_API_TOKEN = <paste your strapi token> 
+```
+REACT_APP_API_TOKEN = <paste your strapi token> 
 REACT_APP_API_URL = http://localhost:1337/api 
 REACT_APP_UPLOAD_URL = http://localhost:1337
 ```
 replace ```<paste your strapi token>``` with the token you get from your strapi admin panel. Read Strapi docs on how to setup a local strapi environment.
 5. After setting up local strapi environment, go to api/src and add 
-```STRIPE_KEY=<paste your stripe secret key>
+```
+STRIPE_KEY=<paste your stripe secret key>
 CLIENT_URL=http://localhost:3000
 ``` 
 to the present .env file. To obtain stripe API key, head to stripe docs.
