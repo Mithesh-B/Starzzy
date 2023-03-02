@@ -2,7 +2,8 @@ import React from 'react'
 import "./product.scss"
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import BalanceIcon from '@mui/icons-material/Balance';
+import DeliveryDiningOutlinedIcon from '@mui/icons-material/DeliveryDiningOutlined';
+import CreditScoreTwoToneIcon from '@mui/icons-material/CreditScoreTwoTone';
 import useFetch from '../../hooks/useFetch';
 import { useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
@@ -35,13 +36,19 @@ const Product = () => {
       </div>
       <div className="right">
         <h1>{data?.attributes?.title}</h1>
-        <span>${data?.attributes?.price}</span>
+     
         <p>{data?.attributes?.desc}</p>
+        <span className='price'>${data?.attributes?.price}</span>
+    
+        
+
         <div className='quantity'>
           <button onClick={()=>setQuantity(prev=>prev===1? 1: prev-1)}>-</button>
           <h3 className='quantity'>{quantity}</h3>
           <button onClick={()=>setQuantity(prev=>prev+1)}>+</button>
+          
         </div>
+        
         <button className='add' onClick={()=>dispatch(addToCart({id:data.id,
         title: data.attributes.title,
         price: data.attributes.price,
@@ -54,7 +61,10 @@ const Product = () => {
             <FavoriteBorderIcon/> add to wishlist
           </div>
           <div className="item">
-            <BalanceIcon/> compare
+            <DeliveryDiningOutlinedIcon/> free shipping
+          </div>
+          <div className="item">
+            <CreditScoreTwoToneIcon/> credit card accepted
           </div>
         </div>
       </div></>)}

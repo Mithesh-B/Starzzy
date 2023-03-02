@@ -36,7 +36,7 @@ const Footer = () => {
         <h1>Resources</h1>
           <span>Help center</span>
           <span>blog</span>
-          <span>Server Status</span>
+          <span>Server status</span>
         </div>
         
       </div>
