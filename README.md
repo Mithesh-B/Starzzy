@@ -24,10 +24,11 @@ Starzzy is an e-commerce website for buying and selling clothing. It was built w
 ## Installation
 1. Clone the repository to your local machine using the command:
 ```git clone https://github.com/Mithesh-B/Starzzy.git```
-or download the .zip extension.
-2. Install the required dependencies for both the folders ```client``` and ```api``` by running the command:
-```npm install
-```
+or download the .zip extension directly.
+2. Install the required dependencies for both ```client``` and ```api```folder by running the command:
+```npm install```
+3. Once done installing all the dependencies, run comand: ```npm start``` in ```client``` folder. This will start the React app on http://localhost:3000.
+4. To connect backend, create a .env file
 
 
 ## Technologies Used
