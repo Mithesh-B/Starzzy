@@ -9,6 +9,7 @@ Starzzy is an e-commerce website for buying clothing and accessories. It is buil
 3. Usage
 4. Technologies Used
 5. License
+6. Copyright
 
 ## Features
 - Browse products by category.
@@ -57,7 +58,10 @@ You can also manage the content of the website using the Strapi CMS. To access t
 - React Router
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under GNU General Public License v3.0.. See the LICENSE file for details.
+
+## Copyright
+Copyright © Mithesh. All rights reserved.
 
 ![screencapture-localhost-3000-product-1-2023-03-02-11_49_49](https://user-images.githubusercontent.com/115478939/222347310-64250887-71ef-4142-bc37-a8d825089f5e.png)
 
