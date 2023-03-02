@@ -1,5 +1,5 @@
 # Starzzy - E-commerce Clothing Website
-Starzzy is an e-commerce website for buying clothing and accessories. It was built with React.js, Redux Toolkit for state management, SCSS for styling, Strapi CMS for creating REST API and its endpoints to manage content, and Stripe API for payment processing.
+Starzzy is an e-commerce website for buying clothing and accessories. It is built with React.js, Redux Toolkit for state management, SCSS for styling, Strapi CMS for creating REST API and its endpoints to manage content, and Stripe API for payment processing.
 
 ![screencapture-localhost-3000-product-1-2023-03-02-11_34_23](https://user-images.githubusercontent.com/115478939/222347333-2933ce03-86bf-4240-bf3a-80951f87bd22.png)
 
