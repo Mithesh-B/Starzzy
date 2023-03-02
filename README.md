@@ -22,9 +22,12 @@ Starzzy is an e-commerce website for buying and selling clothing. It was built w
 - Manage content with Strapi CMS.
 
 ## Installation
-Clone the repository to your local machine using the command below:
+1. Clone the repository to your local machine using the command:
 ```git clone https://github.com/Mithesh-B/Starzzy.git```
 or download the .zip extension.
+2. Install the required dependencies for both the folders ```client``` and ```api``` by running the command:
+```npm install
+```
 
 
 ## Technologies Used
