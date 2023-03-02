@@ -21,6 +21,12 @@ Starzzy is an e-commerce website for buying and selling clothing. It was built w
 - Checkout with Stripe payment processing.
 - Manage content with Strapi CMS.
 
+## Installation
+Clone the repository to your local machine using the command below:
+```git clone https://github.com/Mithesh-B/Starzzy.git```
+or download the .zip extension.
+
+
 ## Technologies Used
 - React.js
 - Redux Toolkit
