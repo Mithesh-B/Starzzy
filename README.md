@@ -41,7 +41,6 @@ STRIPE_KEY=<paste your stripe secret key>
 CLIENT_URL=http://localhost:3000
 ``` 
 to the present .env file. To obtain stripe API key, head to stripe docs.
-
 6. Paste your public stripe API key in clients/src/components/cart/cart.jsx/```loadStripe('<enter your public key>')```. Replace ```<enter your public key>``` with your key.
 7. Finally run command: ```npm run develop``` in api folder to start your strapi server. 
 
