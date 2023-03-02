@@ -8,8 +8,7 @@ Starzzy is an e-commerce website for buying clothing and accessories. It is buil
 2. Installation
 3. Usage
 4. Technologies Used
-5. Contributing
-6. License
+5. License
 
 ## Features
 - Browse products by category.
@@ -43,7 +42,10 @@ CLIENT_URL=http://localhost:3000
 6. Paste your public stripe API key in clients/src/components/cart/cart.jsx/```loadStripe('<enter your public key>')```. Replace ```<enter your public key>``` with your key.
 7. Finally run command: ```npm run develop``` in api folder to start your strapi server. 
 
+## Usage
+Once you have the website running, you can browse the products by category, search for products, add products to your cart, and checkout with Stripe payment processing.
 
+You can also manage the content of the website using the Strapi CMS. To access the CMS, navigate to http://localhost:1337/admin and login with the username and password that you specified during the Strapi installation process.
 
 ## Technologies Used
 - React.js
