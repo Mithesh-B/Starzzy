@@ -58,7 +58,7 @@ You can also manage the content of the website using the Strapi CMS. To access t
 - React Router
 
 ## License
-This project is licensed under GNU General Public License v3.0.. See the LICENSE file for details.
+This project is licensed under GNU General Public License v3.0. See the LICENSE file for details.
 
 ## Copyright
 Copyright © Mithesh. All rights reserved.
@@ -66,5 +66,7 @@ Copyright © Mithesh. All rights reserved.
 ![screencapture-localhost-3000-product-1-2023-03-02-11_49_49](https://user-images.githubusercontent.com/115478939/222347310-64250887-71ef-4142-bc37-a8d825089f5e.png)
 
 ![screencapture-localhost-3000-2023-03-01-18_00_46](https://user-images.githubusercontent.com/115478939/222147010-6b56eda1-a394-4d3f-9fe6-96e8c88b48d1.png)
+
+![screencapture-localhost-3000-products-1-2023-03-01-18_04_04](https://user-images.githubusercontent.com/115478939/227122535-6541c0b4-0e14-4aa6-8fe9-efdefa843ec6.png)
 
 
